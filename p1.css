@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F5F1;
+    /* Beige clair pour un fond doux et chaleureux */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pricing-header {
+    color: #6FBF73;
+    /* Vert menthe doux pour un effet frais et naturel */
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.panel {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    /* Ombre subtile pour un aspect élégant */
+}
+
+.pricing-table {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-table:last-child {
+    border-bottom: none;
+}
+
+.image {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.pricing-features {
+    margin: 30px 0 20px;
+    color: #A3A3A3;
+    /* Gris doux pour les fonctionnalités */
+}
+
+.pricing-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1e1;
+}
+
+.pricing-item:last-child {
+    border-top: 1px solid #e1f1e1;
+}
+
+.pricing-price {
+    color: #F7B731;
+    /* Or doux pour attirer l'attention sur le prix */
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.pricing-button {
+    border: 1px solid #B0E5D1;
+    /* Vert menthe pâle pour les bordures des boutons */
+    border-radius: 10px;
+    color: #4A90E2;
+    /* Bleu calme pour le texte des boutons */
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+    background-color: #FFFFFF;
+    /* Blanc pour les boutons par défaut */
+}
+
+.pricing-button:hover {
+    background-color: #e1f7f3;
+    /* Un bleu très pâle pour l'effet au survol */
+}
+
+.pricing-button:focus {
+    background-color: #e1f7f3;
+}
+
+.pricing-button.is-featured {
+    background-color: #2D87A6;
+    /* Bleu profond pour le bouton 'featured' */
+    color: white;
+}
+
+.pricing-button.is-featured:hover {
+    background-color: #1C6A7D;
+    color: white;
+}
+
+.pricing-button.is-featured:focus {
+    background-color: #1C6A7D;
+    color: white;
+}
+
+@media(min-width:900px) {
+    .panel {
+        flex-direction: row;
+    }
+
+    .pricing-table {
+        border-bottom: none;
+        border-right: 1px solid #e1f1e1;
+        padding: 25px 50px;
+    }
+
+    .pricing-table:last-child() {
+        border-right: none;
+    }
+}
