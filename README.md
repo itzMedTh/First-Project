@@ -1,5 +1,7 @@
 # Project Name - Pricing Table UI
 
+![Image](https://github.com/user-attachments/assets/7bb412f6-678b-4cff-bfc6-e328d81f756c)
+
 ## Description
 A modern and responsive pricing table built with **HTML** and **CSS**, designed to showcase different pricing plans in an elegant and user-friendly interface. This project features clean design principles, optimized for both desktop and mobile users. The UI is intuitive and easy to navigate, offering clear distinctions between different service tiers.
 
